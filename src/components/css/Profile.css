@@ -1,0 +1,123 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    gap: 30px;
+}
+
+.profile-right-side {
+    flex: 5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-me {
+    color: rgb(255, 255, 255, 0.75);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    background-color: rgb(20, 20, 24);
+    padding: 0px 5%;
+}
+
+.about-me p {
+    padding-left: 1.5%;
+}
+
+.interesting {
+    color: rgb(255, 255, 255, 0.75);
+    flex: 1;
+    max-height: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    border-radius: 15px;
+    background-color: rgb(20, 20, 24);
+}
+
+.interesting h6 {
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding-left: 20px;
+}
+
+.interesting-images img {
+    max-height: 7vh;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 4.5vh;
+    flex: 2;
+    border-radius: 15px;
+    background-color: rgb(20, 20, 24);
+}
+
+.profile {
+    color: rgb(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.profile img {
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+}
+
+.profile h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+.profile p {
+    color: #9f9f9f;
+    font-family: cursive, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 50%;
+    font-size: 14px;
+}
+
+.profile-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-socials a {
+    color: #9f9f9f;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 5px;
+    width: 3.5vh;
+    height: 3.5vh;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid rgb(255 255 255 / 5%);
+    border-radius: 10px;
+}
+
+.profile-socials a:hover {
+    color: #0d6efd;
+}

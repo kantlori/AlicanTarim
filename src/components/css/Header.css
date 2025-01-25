@@ -1,0 +1,24 @@
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 120px;
+    gap: 50px;
+    font-size: 1.2em;
+    color: #bbbbbb;
+}
+
+header nav ul li {
+    font-weight: 600;
+}
+
+header nav ul li:hover {
+    color: rgb(41, 136, 181);
+    text-shadow: rgb(0, 0, 101)
+}
+
+header nav ul li a.active {
+    color: rgb(41, 136, 181);
+    text-shadow: rgb(0, 0, 101)
+}
