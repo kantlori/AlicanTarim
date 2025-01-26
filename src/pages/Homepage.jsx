@@ -5,6 +5,7 @@ import WorknProjects from '../components/Home/WorknProjects'
 import Profile from '../components/Home/Profile'
 
 function Homepage() {
+
     return (
         <>
             <div className="profile-container">
