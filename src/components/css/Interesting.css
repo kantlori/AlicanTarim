@@ -22,6 +22,7 @@
 
 .nav-directors {
     width: 100%;
+    margin-top: 2%;
 }
 
 .nav-directors ul {
@@ -47,4 +48,31 @@
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-color: rgb(1, 87, 155, 0.5);
+}
+
+.work-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1%;
+}
+
+.work-card:nth-child(n+4) {
+    margin-top: 3%;
+}
+
+.work-card img {
+    max-width: 300px;
+}
+
+.work-card-container h4 {
+    font-size: 12px;
+}
+
+.work-card p {
+    justify-self: center;
+    width: 100%;
 }
