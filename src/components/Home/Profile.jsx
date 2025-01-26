@@ -1,15 +1,15 @@
 import React from 'react';
 import profilePhoto from "../../assets/profil-photo.jpg";
-import alican from "../../fakedata";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiInstagram } from "react-icons/si";
 import SOCIAL_MEDIA_LINKS from "../../socialdata";
 import "../css/Profile.css";
+import user from '../../fakedata';
 
 function Profile() {
-    const { firstName, lastName, profession, city } = alican;
+    const { firstName, lastName, profession, city } = user;
     const { linkedin, github, twitter, instagram } = SOCIAL_MEDIA_LINKS;
 
     return (
