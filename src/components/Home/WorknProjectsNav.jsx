@@ -6,10 +6,12 @@ function WorknProjectsNav() {
     const buttons = ["Show All", "Mobile Apps", "Packages", "GitHub Repos", "Medium Articles"]
 
     return (
-        <div>
-            {buttons.map((item, index) => (
-                <WorkNavButton item={item} key={index} />
-            ))}
+        <div className='nav-directors'>
+            <ul>
+                {buttons.map((item, index) => (
+                    <WorkNavButton item={item} key={index} />
+                ))}
+            </ul>
         </div>
     )
 }

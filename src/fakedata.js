@@ -1,6 +1,6 @@
 const alican = {
-    "firstName": "Sinem",
-    "lastName": "SEVİMLİKURT",
+    "firstName": "Alican",
+    "lastName": "TARIM",
     "profession": "Software Developer",
     "city": "Istanbul"
 };

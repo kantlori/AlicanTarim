@@ -1,8 +1,50 @@
 .workplace {
-    margin-top: 3%;
+    margin-top: 6%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 20px;
-
     color: aliceblue;
+    text-align: start;
+}
+
+.workplace h2 {
+    padding-left: 1%;
+    font-size: 40px;
+}
+
+.workplace p {
+    padding-left: 1%;
+    font-size: 18px;
+    width: 50%;
+}
+
+.nav-directors {
+    width: 100%;
+}
+
+.nav-directors ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 5%;
+}
+
+.nav-directors ul li button {
+    text-decoration: none;
+    all: unset;
+    font-size: 12px;
+    transition: all 150ms ease;
+}
+
+.nav-directors ul li button:hover {
+    cursor: pointer;
+    color: rgb(1, 87, 155);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(1, 87, 155, 0.5);
 }

@@ -1,11 +1,10 @@
 import React from 'react'
 
 function WorkNavButton({ item }) {
-    console.log(item)
     return (
-        <>
+        <li>
             <button>{item}</button>
-        </>
+        </li>
     )
 }
 
